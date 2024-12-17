@@ -574,15 +574,32 @@ a {
 .resources-hero {
   display: flex;
   flex-direction: column;
+  height: 603px;
 }
 
 .resources-hero-header {
+  margin-top: 228px;
   align-self: center;
 }
 
 .resources-hero-line {
   align-self: center;
 }
+
+.resources-hero-links {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-left: 387px;
+}
+
 
 /* background images */
 
